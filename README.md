@@ -1,0 +1,3 @@
+# Improper Exception Handling in Asynchronous Dart Code
+
+This repository demonstrates a common error in Dart asynchronous programming:  failing to properly handle exceptions that may occur during an asynchronous operation. The example showcases how to use `try-catch` blocks, but also highlights how the `rethrow` keyword is essential for allowing upper layers of the application to handle exceptions that occur deep within nested asynchronous calls.
